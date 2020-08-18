@@ -18,9 +18,6 @@
 	<?php diaspora_clone_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<img src="<?php the_field('image'); ?>" />
-		<p><?php the_field('price'); ?></p>
-		<p><?php the_field('description'); ?></p>
 		<?php
 		the_content();
 
